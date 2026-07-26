@@ -128,10 +128,10 @@ The publish workflow also uses the `marketplace` GitHub environment.
 After that, the workflow publishes with:
 
 ```bash
-pnpm exec vsce publish --oidc
+pnpm exec vsce publish --azure-credential
 ```
 
-That uses GitHub's OIDC token exchange instead of a long-lived PAT.
+That uses the Entra-authenticated Azure session from `azure/login` instead of a long-lived PAT.
 
 ## ℹ️ Notes
 
