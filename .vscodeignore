@@ -1,0 +1,11 @@
+.github/**
+node_modules/**
+scripts/**
+.gitignore
+.nvmrc
+.release-please-config.json
+.release-please-manifest.json
+package-lock.json
+pnpm-lock.yaml
+pnpm-workspace.yaml
+*.vsix

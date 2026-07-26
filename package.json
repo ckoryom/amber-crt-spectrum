@@ -1,0 +1,60 @@
+{
+  "name": "amber-crt-spectrum",
+  "displayName": "Amber CRT Spectrum",
+  "description": "A warm phosphor-inspired VS Code theme with vivid syntax highlighting.",
+  "version": "0.0.1",
+  "publisher": "ckoryom",
+  "license": "MIT",
+  "icon": "assets/icon.png",
+  "homepage": "https://github.com/ckoryom/amber-crt-spectrum",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ckoryom/amber-crt-spectrum"
+  },
+  "scripts": {
+    "package": "pnpm exec vsce package",
+    "build": "pnpm run package",
+    "audit": "pnpm audit --audit-level low",
+    "install:local": "node ./scripts/install-vsix.cjs",
+    "build:install": "pnpm run package && pnpm run install:local",
+    "check": "pnpm run audit && pnpm run package"
+  },
+  "bugs": {
+    "url": "https://github.com/ckoryom/amber-crt-spectrum/issues"
+  },
+  "engines": {
+    "vscode": "^1.80.0",
+    "node": ">=22.0.0"
+  },
+  "packageManager": "pnpm@11.17.0",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color theme",
+    "amber",
+    "crt",
+    "phosphor",
+    "retro",
+    "terminal",
+    "dark",
+    "developer"
+  ],
+  "galleryBanner": {
+    "color": "#1b1005",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Amber CRT Spectrum",
+        "uiTheme": "vs-dark",
+        "path": "./themes/amber-crt-spectrum-color-theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.9.2"
+  }
+}
