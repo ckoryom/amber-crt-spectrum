@@ -100,7 +100,7 @@ That command packages the extension and installs the generated VSIX into your lo
 
 ### Release flow
 
-1. Merge conventional-commit-style changes into `main`.
+1. Open PRs with **conventional commit titles** and prefer **Squash and merge**.
 2. Release Please opens or updates a release PR with the next version and changelog.
 3. Merge that release PR.
 4. The release workflow creates a GitHub release.
@@ -137,6 +137,7 @@ That uses GitHub's OIDC token exchange instead of a long-lived PAT.
 
 - The **Features** tab in VS Code is mostly auto-generated from the extension manifest. For a theme extension, that tab will stay fairly minimal and mainly list the contributed color theme.
 - The full product explanation, screenshots, and usage details live in this README, which is what users will rely on most in the extension details view and Marketplace page.
+- For cleaner release notes and fewer Release Please parse warnings, use **Squash and merge** on PRs and keep PR titles in **conventional commit** format.
 
 ## 📜 License
 
