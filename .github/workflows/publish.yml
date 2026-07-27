@@ -47,7 +47,7 @@ jobs:
         run: pnpm run audit
 
       - name: Package extension
-        run: pnpm run package
+        run: pnpm exec vsce package --pre-release
 
       - name: Resolve VSIX path
         id: vsix
