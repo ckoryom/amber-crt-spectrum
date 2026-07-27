@@ -47,11 +47,11 @@ jobs:
         run: pnpm run audit
 
       - name: Package extension
-        run: pnpm exec vsce package --pre-release
+        run: pnpm run package
 
       - name: Resolve VSIX path
         id: vsix
         run: echo "path=$(ls -1 ./*.vsix | head -n 1)" >> "$GITHUB_OUTPUT"
 
       - name: Publish to VS Code Marketplace
-        run: pnpm exec vsce publish --pre-release --packagePath "${{ steps.vsix.outputs.path }}" --azure-credential
+        run: pnpm exec vsce publish --packagePath "${{ steps.vsix.outputs.path }}" --azure-credential

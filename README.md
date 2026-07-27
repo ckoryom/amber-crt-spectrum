@@ -94,7 +94,7 @@ That command packages the extension and installs the generated VSIX into your lo
 ### GitHub Actions
 
 - **CI** installs with pnpm, audits dependencies, and validates packaging.
-- **Release Please** manages alpha release PRs, version bumps, and changelog updates.
+- **Release Please** manages release PRs, version bumps, and changelog updates.
 - **Test Entra OIDC** validates the Azure Entra federation configured for this repository.
 - **Publish Extension** publishes tagged releases to the **VS Code Marketplace** using the repo's OIDC/trusted publishing setup.
 
@@ -103,7 +103,7 @@ That command packages the extension and installs the generated VSIX into your lo
 1. Open PRs with **conventional commit titles** and prefer **Squash and merge**.
 2. Release Please opens or updates a release PR with the next version and changelog.
 3. Merge that release PR.
-4. The release workflow creates a GitHub prerelease.
+4. The release workflow creates a GitHub release.
 5. The publish workflow packages the extension and publishes it to the VS Code Marketplace.
 
 ### What gets updated automatically?

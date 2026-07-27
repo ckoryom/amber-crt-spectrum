@@ -5,9 +5,7 @@
       "release-type": "node",
       "package-name": "amber-crt-spectrum",
       "changelog-path": "CHANGELOG.md",
-      "include-v-in-tag": true,
-      "prerelease": true,
-      "prerelease-type": "alpha"
+      "include-v-in-tag": true
     }
   }
 }
