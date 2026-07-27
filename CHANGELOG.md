@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.1-alpha.0](https://github.com/ckoryom/amber-crt-spectrum/compare/amber-crt-spectrum-v0.1.0-alpha.0...amber-crt-spectrum-v0.1.1-alpha.0) (2026-07-27)
+
+
+### Bug Fixes
+
+* package marketplace prereleases correctly ([619cae5](https://github.com/ckoryom/amber-crt-spectrum/commit/619cae5dd81a05d8d901ca8001810a6eef10fe29))
+* package marketplace prereleases correctly ([b06b225](https://github.com/ckoryom/amber-crt-spectrum/commit/b06b225ca13f14a95ca5d8a420fe4f5a2f63083b))
+
 ## [0.1.0-alpha.0](https://github.com/ckoryom/amber-crt-spectrum/compare/amber-crt-spectrum-v0.0.1-alpha.0...amber-crt-spectrum-v0.1.0-alpha.0) (2026-07-27)
 
 
