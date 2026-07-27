@@ -2,7 +2,7 @@
   "name": "amber-crt-spectrum",
   "displayName": "Amber CRT Spectrum",
   "description": "A warm phosphor-inspired VS Code theme with vivid syntax highlighting.",
-  "version": "0.1.1-alpha.0",
+  "version": "0.0.0",
   "publisher": "ckoryom",
   "license": "MIT",
   "icon": "assets/icon.png",
