@@ -6,7 +6,7 @@ permissions:
 jobs:
   debug:
     runs-on: ubuntu-latest
-    environment: marketplace-publish
+    environment: marketplace
     steps:
       - uses: azure/login@v2
         with:
